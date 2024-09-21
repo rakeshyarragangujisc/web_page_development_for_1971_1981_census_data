@@ -1,0 +1,86 @@
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 15px 15px 50px;
+    height: 70vh;
+    margin-top: 30px;
+    border-right: 1px solid #ddd;
+    position: sticky;
+    top: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-style: groove;
+}
+
+.sidebar a {
+    display: block;
+    padding: 8px 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.header-container {
+    background-color: #4a148c;
+    color: white;
+    padding: 20px;
+}
+
+.header-container .col-lg-4,
+.header-container .col-md-4,
+.header-container .col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.header-container img {
+    max-width: 150px;
+    height: auto;
+}
+
+.header-links {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+#sidebarToggle {
+    margin-top: 20px;
+}
+
+.main-content h1 {
+    text-align: center;
+}
+
+#masterFooter-help {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+}
+
+.white-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.white-text a:hover {
+    text-decoration: underline;
+}
